@@ -1,0 +1,31 @@
+html,
+body {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.t-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.t-flex-child {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: fit-content;
+    border-radius: 5px;
+    border: 1px solid #e9e9e9;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.t-img {
+    width: 100%;
+    height: 300px;
+}
